@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scale Kingdom — Learn System Design</title>
+  <meta name="description" content="Learn system design by reading, quizzing, writing, drawing and building your own kingdom of servers.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#/" class="brand"><span class="brand-icon">🏰</span><span class="brand-text">Scale Kingdom</span></a>
+    <div class="resources">
+      <div class="res gold" title="Gold — earned by reading and quizzes"><span>🪙</span><b id="res-gold">0</b></div>
+      <div class="res trophy" title="Trophies — earned by correct quiz answers"><span>🏆</span><b id="res-trophy">0</b></div>
+      <div class="res level" title="Castle level"><span>🏯</span><b id="res-level">1</b></div>
+    </div>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+  </header>
+  <nav class="sidenav" id="sidenav">
+    <a href="#/" data-nav="home">🏰 <span>Kingdom</span></a>
+    <a href="#/learn" data-nav="learn">📜 <span>Library</span></a>
+    <a href="#/quiz" data-nav="quiz">⚔️ <span>Quiz Arena</span></a>
+    <a href="#/long" data-nav="long">✍️ <span>Scroll Tower</span></a>
+    <a href="#/play" data-nav="play">🛡️ <span>Build &amp; Defend</span></a>
+    <a href="#/draw" data-nav="draw">🧱 <span>Workshop</span></a>
+    <a href="#/practice" data-nav="practice">🎯 <span>Training Grounds</span></a>
+    <a href="#/videos" data-nav="videos">🎬 <span>Theater</span></a>
+    <a href="#/creators" data-nav="creators">👑 <span>Guild of Masters</span></a>
+    <a href="#/books" data-nav="books">📚 <span>Bookshop</span></a>
+    <a href="#/courses" data-nav="courses">🎓 <span>Academy</span></a>
+  </nav>
+  <main id="app"></main>
+  <div id="toast" class="toast"></div>
+  <div id="modal" class="modal hidden"><div class="modal-card panel" id="modalCard"></div></div>
+
+  <!-- data -->
+  <script src="js/config.js"></script>
+  <script src="js/data/blogs-1.js"></script>
+  <script src="js/data/blogs-2.js"></script>
+  <script src="js/data/blogs-3.js"></script>
+  <script src="js/data/blogs-4.js"></script>
+  <script src="js/data/blogs-5.js"></script>
+  <script src="js/data/glossary.js"></script>
+  <script src="js/data/quiz-1.js"></script>
+  <script src="js/data/quiz-2.js"></script>
+  <script src="js/data/quiz-3.js"></script>
+  <script src="js/data/quiz-gen.js"></script>
+  <script src="js/data/long.js"></script>
+  <script src="js/data/practice.js"></script>
+  <script src="js/data/media.js"></script>
+  <!-- app -->
+  <script src="js/core.js"></script>
+  <script src="js/editor.js"></script>
+  <script src="js/pages/home.js"></script>
+  <script src="js/pages/learn.js"></script>
+  <script src="js/pages/quiz.js"></script>
+  <script src="js/pages/long.js"></script>
+  <script src="js/pages/draw.js"></script>
+  <script src="js/pages/play.js"></script>
+  <script src="js/pages/media.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
