@@ -8,7 +8,7 @@ window.VIDEOS = [
   { id: 'RNa0Lx4nu80', title: 'The Best Course On System Design in 2026', channel: '', uploaded: '2026-11', length: 'long', tags: ['full course', 'trade-offs'] },
   { id: 'soTfFFIQQ8U', title: 'Design Software Systems Like a Senior Engineer', channel: 'freeCodeCamp.org', uploaded: '2026-10', length: 'long', tags: ['full course', 'interview', 'framework'] },
   { id: '5ozClNjO44A', title: 'System Design Complete Course', channel: '', uploaded: '2026-10', length: 'medium', tags: ['overview', 'theory'] },
-  { id: 'YwchThwbxkQ', title: 'System Design Full Course 2026', channel: '', uploaded: '2026-08', length: 'long', tags: ['full course', 'backend'] },
+  // { id: 'YwchThwbxkQ', title: 'System Design Full Course 2026', channel: '', uploaded: '2026-08', length: 'long', tags: ['full course', 'backend'] },
   { id: 'SE2KF-vxvS0', title: 'System Design for Beginners (2026)', channel: '', uploaded: '2026-07', length: 'medium', tags: ['beginner', 'photo app'] },
   { id: '4ZNmvPL7oxA', title: 'Editor\'s pick', channel: '', uploaded: '', length: 'medium', tags: ['recommended'] }
 ];
@@ -47,21 +47,21 @@ window.ENGINEERING_BLOGS = [
  * Set `asin` for a direct product page, or `affiliateUrl` to use any store/link you like.
  */
 window.BOOKS = [
-  { title: 'Designing Data-Intensive Applications', author: 'Martin Kleppmann', level: 'Core', color: '#7a3e9d', about: 'The best book on how databases, replication, partitioning and streams really work. Look for the latest edition.', asin: '', affiliateUrl: '' },
-  { title: 'System Design Interview – An Insider\'s Guide (Vol. 1)', author: 'Alex Xu', level: 'Beginner', color: '#1d6db3', about: 'Step-by-step designs of classic interview problems with clear diagrams.', asin: '', affiliateUrl: '' },
-  { title: 'System Design Interview – An Insider\'s Guide (Vol. 2)', author: 'Alex Xu & Sahn Lam', level: 'Intermediate', color: '#2b8a3e', about: 'More advanced designs: proximity service, payment system, stock exchange and more.', asin: '', affiliateUrl: '' },
-  { title: 'Understanding Distributed Systems', author: 'Roberto Vitillo', level: 'Beginner', color: '#c2410c', about: 'A short, friendly intro to the ideas behind large distributed systems.', asin: '', affiliateUrl: '' },
-  { title: 'Database Internals', author: 'Alex Petrov', level: 'Advanced', color: '#334155', about: 'How storage engines and distributed databases work under the hood.', asin: '', affiliateUrl: '' },
-  { title: 'Building Microservices (2nd ed.)', author: 'Sam Newman', level: 'Intermediate', color: '#0e7490', about: 'When and how to split systems into services — and when not to.', asin: '', affiliateUrl: '' },
-  { title: 'Fundamentals of Software Architecture', author: 'Mark Richards & Neal Ford', level: 'Intermediate', color: '#a16207', about: 'Architecture styles, characteristics and trade-off thinking.', asin: '', affiliateUrl: '' },
-  { title: 'Software Architecture: The Hard Parts', author: 'Neal Ford, Mark Richards, Pramod Sadalage, Zhamak Dehghani', level: 'Advanced', color: '#9f1239', about: 'Trade-off analysis for distributed architectures, data ownership and sagas.', asin: '', affiliateUrl: '' },
-  { title: 'Site Reliability Engineering', author: 'Google (Beyer, Jones, Petoff, Murphy)', level: 'Intermediate', color: '#15803d', about: 'How Google runs production: SLOs, error budgets, on-call, postmortems.', asin: '', affiliateUrl: '' },
-  { title: 'Release It! (2nd ed.)', author: 'Michael T. Nygard', level: 'Intermediate', color: '#b91c1c', about: 'Stability patterns like circuit breakers and bulkheads from real outages.', asin: '', affiliateUrl: '' },
-  { title: 'Web Scalability for Startup Engineers', author: 'Artur Ejsmont', level: 'Beginner', color: '#4338ca', about: 'Practical scaling of web apps: caching, queues, databases, search.', asin: '', affiliateUrl: '' },
-  { title: 'Acing the System Design Interview', author: 'Zhiyong Tan', level: 'Intermediate', color: '#0f766e', about: 'Interview-focused walkthroughs with trade-off discussions.', asin: '', affiliateUrl: '' },
-  { title: 'Machine Learning System Design Interview', author: 'Ali Aminian & Alex Xu', level: 'Advanced', color: '#6d28d9', about: 'Designing ML systems like recommendations, search ranking and ads.', asin: '', affiliateUrl: '' },
-  { title: 'AI Engineering', author: 'Chip Huyen', level: 'Intermediate', color: '#be185d', about: 'Building applications on foundation models: RAG, evaluation, serving.', asin: '', affiliateUrl: '' },
-  { title: 'Designing Machine Learning Systems', author: 'Chip Huyen', level: 'Intermediate', color: '#0369a1', about: 'End-to-end ML systems in production: data, training, deployment, monitoring.', asin: '', affiliateUrl: '' }
+  { title: 'Designing Data-Intensive Applications', author: 'Martin Kleppmann', level: 'Core', color: '#7a3e9d', about: 'The best book on how databases, replication, partitioning and streams really work. Look for the latest edition.', asin: '', affiliateUrl: 'https://link.amazon/B076U7oPS' },
+  { title: 'System Design Interview – An Insider\'s Guide (Vol. 1)', author: 'Alex Xu', level: 'Beginner', color: '#1d6db3', about: 'Step-by-step designs of classic interview problems with clear diagrams.', asin: '', affiliateUrl: 'https://link.amazon/B03jBpatR' },
+  { title: 'System Design Interview – An Insider\'s Guide (Vol. 2)', author: 'Alex Xu & Sahn Lam', level: 'Intermediate', color: '#2b8a3e', about: 'More advanced designs: proximity service, payment system, stock exchange and more.', asin: '', affiliateUrl: 'https://link.amazon/B0ar7jCBZ' },
+  { title: 'Understanding Distributed Systems', author: 'Roberto Vitillo', level: 'Beginner', color: '#c2410c', about: 'A short, friendly intro to the ideas behind large distributed systems.', asin: '', affiliateUrl: 'https://link.amazon/B03QhQnUY' },
+  { title: 'Database Internals', author: 'Alex Petrov', level: 'Advanced', color: '#334155', about: 'How storage engines and distributed databases work under the hood.', asin: '', affiliateUrl: 'https://link.amazon/B07ILaqT3' },
+  { title: 'Building Microservices (2nd ed.)', author: 'Sam Newman', level: 'Intermediate', color: '#0e7490', about: 'When and how to split systems into services — and when not to.', asin: '', affiliateUrl: 'https://link.amazon/B00L1irz5' },
+  // { title: 'Fundamentals of Software Architecture', author: 'Mark Richards & Neal Ford', level: 'Intermediate', color: '#a16207', about: 'Architecture styles, characteristics and trade-off thinking.', asin: '', affiliateUrl: '' },
+  // { title: 'Software Architecture: The Hard Parts', author: 'Neal Ford, Mark Richards, Pramod Sadalage, Zhamak Dehghani', level: 'Advanced', color: '#9f1239', about: 'Trade-off analysis for distributed architectures, data ownership and sagas.', asin: '', affiliateUrl: '' },
+  // { title: 'Site Reliability Engineering', author: 'Google (Beyer, Jones, Petoff, Murphy)', level: 'Intermediate', color: '#15803d', about: 'How Google runs production: SLOs, error budgets, on-call, postmortems.', asin: '', affiliateUrl: '' },
+  // { title: 'Release It! (2nd ed.)', author: 'Michael T. Nygard', level: 'Intermediate', color: '#b91c1c', about: 'Stability patterns like circuit breakers and bulkheads from real outages.', asin: '', affiliateUrl: '' },
+  // { title: 'Web Scalability for Startup Engineers', author: 'Artur Ejsmont', level: 'Beginner', color: '#4338ca', about: 'Practical scaling of web apps: caching, queues, databases, search.', asin: '', affiliateUrl: '' },
+  // { title: 'Acing the System Design Interview', author: 'Zhiyong Tan', level: 'Intermediate', color: '#0f766e', about: 'Interview-focused walkthroughs with trade-off discussions.', asin: '', affiliateUrl: '' },
+  // { title: 'Machine Learning System Design Interview', author: 'Ali Aminian & Alex Xu', level: 'Advanced', color: '#6d28d9', about: 'Designing ML systems like recommendations, search ranking and ads.', asin: '', affiliateUrl: '' },
+  // { title: 'AI Engineering', author: 'Chip Huyen', level: 'Intermediate', color: '#be185d', about: 'Building applications on foundation models: RAG, evaluation, serving.', asin: '', affiliateUrl: '' },
+  // { title: 'Designing Machine Learning Systems', author: 'Chip Huyen', level: 'Intermediate', color: '#0369a1', about: 'End-to-end ML systems in production: data, training, deployment, monitoring.', asin: '', affiliateUrl: '' }
 ];
 
 /*
